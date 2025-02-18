@@ -1,0 +1,5 @@
+Laboratório - 18/02
+
+Dev Container: Um contêiner de desenvolvimento (ou contêiner dev para abreviar) permite que você use um contêiner como um ambiente de desenvolvimento completo.
+
+O passo a passo está em um documento no Teams.
