@@ -1,0 +1,17 @@
+Padrões de projeto - 18/02
+
+Antipattern:
+O termo “anti-pattern” refere-se a soluções comuns para problemas recorrentes que, na verdade, são ineficazes ou contraproducentes.
+
+
+Observer pattern:
+Pub/Sub
+Assíncrono 
+Whatsapp é observer, ele nos notifica
+
+Para entendermos o padrão Observer, vamos pensar como funciona uma Editora (Observado) de jornal, eles tem uma lista de clientes (Observadores), quando sai uma nova publicação todos os observadores recebem uma copia do jornal, sendo que a qualquer momento um novo cliente(Observador) pode se registrar ou os clientes atuais cancelarem o registro.
+
+Bom, o padrão Observer é isso, um objeto (Observado) que permite que outros objetos sejam registrados  como observadores ou cancelar o seu registro a qualquer momento da aplicação, e ressaltando a ligação leve entre o objeto observado e seus observadores, com isso os objetos podem interagir, mas não sabem quase nada um sobre o outro, deixando bem flexível os objetos observadores e observados.
+
+-- Não gerar diagrama à partir do código
+
