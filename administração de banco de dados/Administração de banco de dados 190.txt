@@ -1,0 +1,26 @@
+Administração de banco de dados 19/02
+ Privilégios e controle de acesso
+Definição
+Características 
+
+ usuarios <-> username/senha <-> BD (acesso remoto, tabelas, etc..
+		+ privilegios
+		 + cotas físicas 
+
+Controle privilegios:
+Administrar a atribuição de privilegios
+
+Responsabilidade do DBA:
+ Habilitar e restringir acesso e mudanças nos dados;
+ Atribuição de privilégios;
+
+Dicionário de dados para usuários:
+ Informações nos dicionários são utilizadas para monitorar os usuários, suas sessões e controlar o perfil.
+ Exemplo de operações realizadas a partir do dicionário de dados:
+  Atribuir/remover acessos;
+  Visualizar/remover sessões ativas;
+  Monitorar a ocupação e o uso do SGBD por usuário;
+
+Níveis de privilégios
+Características dos privilégios de sistema
+Privilégios DCL
